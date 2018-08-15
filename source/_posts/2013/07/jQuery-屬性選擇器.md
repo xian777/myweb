@@ -1,0 +1,9 @@
+---
+title: jQuery 屬性選擇器
+tags:
+  - jQuery
+date: 2013-07-12 17:38:00
+---
+
+<div><table border="1">                <tbody><tr>                        <td colspan="2">屬性選擇器</td>                    </tr><tr>                        <td>範例</td>                        <td>說明</td>                    </tr><tr>                        <td>$("E[A]")</td>                        <td>具有A屬性的元素E</td>                    </tr><tr>                        <td>$("E[A='V']")</td>                        <td>具有A屬性的元素E，且值為V</td>                    </tr><tr>                        <td>$("E[A^='V']")</td>                        <td>具有A屬性的元素E，且值開頭為V</td>                    </tr><tr>                        <td>$("E[A$='V']")</td>                        <td>具有A屬性的元素E，且值結尾為V</td>                    </tr><tr>                        <td>$("E[A*='V']")</td>                        <td>具有A屬性的元素E，且值內容包含V</td>                    </tr><tr>                        <td>$("E[A!=V]")</td>                        <td>具有A屬性的元素E，且值內容不等於V</td>                    </tr><tr>                        <td>$("E[A|='V']")</td>                        <td>具有A屬性的元素E，且值內容的前綴為V或是V-</td>                    </tr><tr>                        <td>$("E[A~='V']")</td>                        <td>具有A屬性的元素E，且用空格分隔的值中有V</td>                    </tr><tr>                        <td>$("E[A1='V1'][A2='V2'][A3='V3']...")</td>                        <td>具有A屬性的元素E，且屬性符號多重串接</td>                    </tr></tbody>            </table></div>
+<div><iframe allowfullscreen="allowfullscreen" frameborder="0" height="500" src="http://jsfiddle.net/VRZeX/embedded/js,html,result/presentation" width="100%"></iframe></div>

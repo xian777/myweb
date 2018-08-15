@@ -1,0 +1,8 @@
+---
+title: jQuery 子元素過濾語法
+tags:
+  - jQuery
+date: 2013-07-15 11:07:00
+---
+
+<div><table border="1">                <tbody><tr>                        <td colspan="2">子元素過濾語法</td>                    </tr><tr>                        <td>範例</td>                        <td>說明</td>                    </tr><tr>                        <td>:first-child</td>                        <td>第一個子元素</td>                    </tr><tr>                        <td>:first-of-type</td>                        <td>同級元素之間的第一個相同的元素</td>                    </tr><tr>                        <td>:last-child</td>                        <td>最後一個子元素</td>                    </tr><tr>                        <td>:last-of-type</td>                        <td>同級元素之間的最後一個相同的元素</td>                    </tr><tr>                        <td>:nth-child(n)</td>                        <td>第n個子元素且為指定的元素</td>                    </tr><tr>                        <td>:nth-last-child(n)</td>                        <td>倒數第n個子元素</td>                    </tr><tr>                        <td>:nth-last-of-type(n)</td>                        <td>倒數第n個指定的子元素</td>                    </tr><tr>                        <td>:nth-of-type(n)</td>                        <td>第n個指定的子元素</td>                    </tr><tr>                        <td>:only-child</td>                        <td>只有一個子節點的元素</td>                    </tr><tr>                        <td>:only-of-type</td>                        <td>同級元素之間只有一個子節點的元素</td>                    </tr></tbody>            </table></div><div><iframe allowfullscreen="allowfullscreen" frameborder="0" height="500" src="http://jsfiddle.net/sYQ66/embedded/js,html,result/presentation" width="100%"></iframe></div>

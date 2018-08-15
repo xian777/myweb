@@ -1,0 +1,19 @@
+---
+title: StyleCop 程式碼風格和一致性規則檢查工具
+tags:
+  - StyleCop
+date: 2012-12-24 19:54:00
+---
+
+<div class="separator" style="clear: both; text-align: left;">StyleCop是C# 程式碼風格和一致性規則檢查工具，針對原始碼來做檢查，目前已經Open Source，網址為http://stylecop.codeplex.com</div>
+<div class="separator" style="clear: both; text-align: left;">首先下載msi格式的安裝檔</div><div class="separator" style="clear: both; text-align: center;">[![](http://3.bp.blogspot.com/--jwuaUDVBfs/UNhBDnLG0eI/AAAAAAAAAhk/b_U-xXWZIcc/s1600/01.Download.png)](http://3.bp.blogspot.com/--jwuaUDVBfs/UNhBDnLG0eI/AAAAAAAAAhk/b_U-xXWZIcc/s1600/01.Download.png)</div>
+<div class="separator" style="clear: both; text-align: left;">下載回來後一直按下一步就行了</div><div class="separator" style="clear: both; text-align: center;">[![](http://1.bp.blogspot.com/-PRXONIZ_JxE/UNhBEIzkfBI/AAAAAAAAAho/VlZngd-AHbE/s1600/02.Install.png)](http://1.bp.blogspot.com/-PRXONIZ_JxE/UNhBEIzkfBI/AAAAAAAAAho/VlZngd-AHbE/s1600/02.Install.png)</div>
+<div class="separator" style="clear: both; text-align: left;">等幾分鐘才能跑完</div><div class="separator" style="clear: both; text-align: center;">[![](http://1.bp.blogspot.com/-xfr0KROUJtg/UNhBEyCSOrI/AAAAAAAAAhw/a0SoGG2XcEY/s1600/03.InstallOK.png)](http://1.bp.blogspot.com/-xfr0KROUJtg/UNhBEyCSOrI/AAAAAAAAAhw/a0SoGG2XcEY/s1600/03.InstallOK.png)</div>
+<div class="separator" style="clear: both; text-align: left;">打開專案，在專案上面按右鍵，選單中就會出現StyleCop相關的功能，先選擇Run StyleCop</div><div class="separator" style="clear: both; text-align: center;">[![](http://1.bp.blogspot.com/-M30ktUiaFUk/UNhBFYlbzQI/AAAAAAAAAh4/o7PhLu-ZA9Y/s1600/04.ContextMenu.png)](http://1.bp.blogspot.com/-M30ktUiaFUk/UNhBFYlbzQI/AAAAAAAAAh4/o7PhLu-ZA9Y/s1600/04.ContextMenu.png)</div>
+<div class="separator" style="clear: both; text-align: left;">工作清單就會出現一堆不符合的警告</div><div class="separator" style="clear: both; text-align: left;">在警告訊息上面點兩下，就會跳到引發警告的程式碼位置 </div><div class="separator" style="clear: both; text-align: center;">[![](http://1.bp.blogspot.com/-rwafVo1cfac/UNhBGI6MfMI/AAAAAAAAAiA/Gp5JccWdtTo/s1600/05.ErrorMsgClick.png)](http://1.bp.blogspot.com/-rwafVo1cfac/UNhBGI6MfMI/AAAAAAAAAiA/Gp5JccWdtTo/s1600/05.ErrorMsgClick.png)</div>
+<div class="separator" style="clear: both; text-align: left;">如果要了解引發警告的原因，可以在訊息上面按右鍵，選擇顯示錯誤說明</div><div class="separator" style="clear: both; text-align: center;">[![](http://2.bp.blogspot.com/-xhJ2QEBbHoI/UNhBG6EP7JI/AAAAAAAAAiI/2V_wFrzpYD8/s1600/06.ShowErrorMsg.png)](http://2.bp.blogspot.com/-xhJ2QEBbHoI/UNhBG6EP7JI/AAAAAAAAAiI/2V_wFrzpYD8/s1600/06.ShowErrorMsg.png)</div>
+<div class="separator" style="clear: both; text-align: left;">就會跳出StyleCop的說明手冊</div><div class="separator" style="clear: both; text-align: center;">[![](http://1.bp.blogspot.com/-iS6TiIGAbBI/UNhBHprpkPI/AAAAAAAAAiQ/dt7cxyCK5b0/s1600/07.ErrorMsg.png)](http://1.bp.blogspot.com/-iS6TiIGAbBI/UNhBHprpkPI/AAAAAAAAAiQ/dt7cxyCK5b0/s1600/07.ErrorMsg.png)</div>
+<div class="separator" style="clear: both; text-align: left;">在專案上面按右鍵，可以選擇設定</div><div class="separator" style="clear: both; text-align: center;">[![](http://1.bp.blogspot.com/-xNiffoKWSq8/UNhBIXrQ8uI/AAAAAAAAAiY/OnDUuiUbrAI/s1600/08.Setting.png)](http://1.bp.blogspot.com/-xNiffoKWSq8/UNhBIXrQ8uI/AAAAAAAAAiY/OnDUuiUbrAI/s1600/08.Setting.png)</div>
+<div class="separator" style="clear: both; text-align: left;">顯示的設定介面</div><div class="separator" style="clear: both; text-align: left;">[![](http://2.bp.blogspot.com/-EaQfSztjdkE/UNhBJPQvZuI/AAAAAAAAAig/rwnc9ZGH9Jg/s1600/09.SettingUI.png)](http://2.bp.blogspot.com/-EaQfSztjdkE/UNhBJPQvZuI/AAAAAAAAAig/rwnc9ZGH9Jg/s1600/09.SettingUI.png)</div>
+<div class="separator" style="clear: both; text-align: left;">專案下就會出現一個StyleCo的檔案，裡面就是剛設定的值 </div>
+<div class="separator" style="clear: both; text-align: center;">[![](http://3.bp.blogspot.com/-3lKTQfTfRxA/UNhBJ0qmReI/AAAAAAAAAio/uNLCe15w45c/s1600/10.Settings.StyleCop.png)](http://3.bp.blogspot.com/-3lKTQfTfRxA/UNhBJ0qmReI/AAAAAAAAAio/uNLCe15w45c/s1600/10.Settings.StyleCop.png)</div>

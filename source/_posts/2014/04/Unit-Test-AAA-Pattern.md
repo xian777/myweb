@@ -4,17 +4,20 @@ tags:
   - Unit Test
 date: 2014-04-28 11:01:00
 ---
+# AAA Pattern
 
-<div>單元測試的程式碼有一個AAA Pattern，就是Arrange Act Assert
+單元測試的程式碼有一個AAA Pattern，就是Arrange Act Assert
 主要的目的是要讓測試程式碼好讀、好懂、好維護
 
-Arrange：初始化測試環境
-Act：執行測試程式
-Assert：驗證測試結果
+* Arrange：初始化測試環境
+* Act：執行測試程式
+* Assert：驗證測試結果
 
-用一個簡單的程式來說明</div>
-<div>主程式</div>
-<div><pre class="brush:csharp">using System;
+用一個簡單的程式來說明
+主程式
+
+```csharp
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,9 +33,11 @@ namespace ConsoleApplication1
         }
     }
 }
-</pre></div><div>
-</div><div>測試程式</div>
-<div><pre class="brush:csharp">using System;
+```
+
+測試程式
+```csharp
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -61,4 +66,4 @@ namespace ConsoleApplication1.Tests
         }
     }
 }
-</pre></div>
+```
